@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-08T09:36:40.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="4UExXci9CE0lLMFrWxIm" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-08T11:58:35.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="p4SjtgqC_iHpWQiCPpuN" version="14.9.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3636" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3718" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -285,14 +285,78 @@
         <mxCell id="X4WPnsppXV_ORNYrt0wM-120" value="@PostConstruct&amp;nbsp;&lt;br&gt;初始化" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;comic=1;sketch=1;strokeWidth=1;" vertex="1" parent="X4WPnsppXV_ORNYrt0wM-119">
           <mxGeometry x="65" y="70" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;comic=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X4WPnsppXV_ORNYrt0wM-119" source="X4WPnsppXV_ORNYrt0wM-121" target="X4WPnsppXV_ORNYrt0wM-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="X4WPnsppXV_ORNYrt0wM-121" value="ExchangeDefinitionLoader&lt;br&gt;加载 ExchangeDefinitionConfig" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=1;strokeWidth=1;" vertex="1" parent="X4WPnsppXV_ORNYrt0wM-119">
           <mxGeometry x="42.5" y="180" width="195" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X4WPnsppXV_ORNYrt0wM-123" value="ExchangeDefinitionConfig 初始化" style="swimlane;comic=1;sketch=1;strokeWidth=1;fillColor=#99FFFF;startSize=30;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;comic=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X4WPnsppXV_ORNYrt0wM-119" source="X4WPnsppXV_ORNYrt0wM-140" target="X4WPnsppXV_ORNYrt0wM-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-140" value="将 symbolicName 作为 exchangeCode 生成 Pipeline" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=1;strokeWidth=1;" vertex="1" parent="X4WPnsppXV_ORNYrt0wM-119">
+          <mxGeometry x="65" y="280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-142" value="assembleCommands()&lt;br&gt;进行命令类的反射" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=1;strokeWidth=1;" vertex="1" parent="X4WPnsppXV_ORNYrt0wM-119">
+          <mxGeometry x="80" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-123" value="ExchangeDefinitionConfig 初始化" style="swimlane;comic=1;sketch=1;strokeWidth=1;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1590" y="1380" width="260" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="X4WPnsppXV_ORNYrt0wM-124" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;comic=1;sketch=1;strokeWidth=1;fillColor=#99FFFF;" vertex="1" parent="X4WPnsppXV_ORNYrt0wM-123">
-          <mxGeometry x="70" y="60" width="120" height="60" as="geometry" />
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;comic=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X4WPnsppXV_ORNYrt0wM-123" source="X4WPnsppXV_ORNYrt0wM-124" target="X4WPnsppXV_ORNYrt0wM-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-124" value="DefaultBridgeConfLoader&lt;br&gt;从配置文件中加载" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;comic=1;sketch=1;strokeWidth=1;" vertex="1" parent="X4WPnsppXV_ORNYrt0wM-123">
+          <mxGeometry x="45" y="60" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;comic=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="X4WPnsppXV_ORNYrt0wM-123" source="X4WPnsppXV_ORNYrt0wM-127" target="X4WPnsppXV_ORNYrt0wM-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-127" value="从 /service-provider/*/provider.yml&lt;br&gt;文件中读取配置信息" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=1;strokeWidth=1;" vertex="1" parent="X4WPnsppXV_ORNYrt0wM-123">
+          <mxGeometry x="60" y="170" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;comic=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="X4WPnsppXV_ORNYrt0wM-123" source="X4WPnsppXV_ORNYrt0wM-132" target="X4WPnsppXV_ORNYrt0wM-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-132" value="从 /**/exchange/*.yml&lt;br&gt;文件中读取命令信息" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=1;strokeWidth=1;" vertex="1" parent="X4WPnsppXV_ORNYrt0wM-123">
+          <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-136" value="生成 EchangeDefinitionConfig&lt;br&gt;symbolicName 是文件前缀&lt;br&gt;serviceProvider 是 provider.yml 父文件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=1;strokeWidth=1;" vertex="1" parent="X4WPnsppXV_ORNYrt0wM-123">
+          <mxGeometry x="45" y="390" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;comic=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X4WPnsppXV_ORNYrt0wM-125" target="X4WPnsppXV_ORNYrt0wM-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;comic=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X4WPnsppXV_ORNYrt0wM-125" target="X4WPnsppXV_ORNYrt0wM-132">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1630" y="1640" />
+              <mxPoint x="-1630" y="1690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-125" value="二方包" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;comic=1;sketch=1;strokeWidth=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1795" y="1600" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-126" value="cf-conf-20210527-FUNDS-PAY.jar" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1880" y="1700" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-131" value="存放 service provider 信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1750" y="1570" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-135" value="存放 command 指令信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1715" y="1660" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;comic=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X4WPnsppXV_ORNYrt0wM-136" target="X4WPnsppXV_ORNYrt0wM-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;comic=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X4WPnsppXV_ORNYrt0wM-142" target="X4WPnsppXV_ORNYrt0wM-115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-920" y="1790" />
+              <mxPoint x="-920" y="1115" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
