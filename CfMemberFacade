@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-08T12:33:41.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="r63TIixb2eCvcIOa16Nb" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-09T03:14:19.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="VaYgZ_g9tshisXVTtFeD" version="14.9.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="RtBridgeFacade">
-    <mxGraphModel dx="5566" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3933" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -252,7 +252,7 @@
         <mxCell id="X4WPnsppXV_ORNYrt0wM-108" value="DepositConfLoader&lt;br&gt;的 load() 方法加载" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=1;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="X4WPnsppXV_ORNYrt0wM-87">
           <mxGeometry x="55" y="430" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X4WPnsppXV_ORNYrt0wM-91" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;comic=1;sketch=1;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="X4WPnsppXV_ORNYrt0wM-91" value="fund-rule" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;comic=1;sketch=1;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1490" y="1046" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="X4WPnsppXV_ORNYrt0wM-93" value="HSF 调用 FpServicdeFacade 接口在 fund_rule 模块从数据库 fp_service_provider 中加载数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
