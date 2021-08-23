@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-23T06:59:56.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="pNIv6iizlCTHsARSNOxL" version="14.9.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-23T07:08:01.905Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="3t-5ELSiURXgP--xMxFk" version="14.9.8" type="github" pages="3">
   <diagram id="lNUnMd44pd3dAqWRJb_r" name="Payment-core">
     <mxGraphModel dx="1609" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -562,6 +562,21 @@
         </mxCell>
         <mxCell id="7j7qULn56lipP0FeJJik-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="45O7TFsBYRkY7VIoVt8F-1" source="7j7qULn56lipP0FeJJik-8" target="7j7qULn56lipP0FeJJik-29">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7j7qULn56lipP0FeJJik-48" value="CfOweRuleInsAdd（批量新增规则实例）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="45O7TFsBYRkY7VIoVt8F-1">
+          <mxGeometry x="30" y="1170" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7j7qULn56lipP0FeJJik-49" value="paramsByFile 字段及对应批量文件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7j7qULn56lipP0FeJJik-48">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7j7qULn56lipP0FeJJik-50" value="params 字段及对应取值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7j7qULn56lipP0FeJJik-48">
+          <mxGeometry y="52" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7j7qULn56lipP0FeJJik-51" value="templateId 关联的规则模板 Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7j7qULn56lipP0FeJJik-48">
+          <mxGeometry y="78" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7j7qULn56lipP0FeJJik-52" value="handleStrategyIds 关联的处置策略 Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7j7qULn56lipP0FeJJik-48">
+          <mxGeometry y="104" width="320" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
