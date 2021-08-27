@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T03:54:54.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="dER5DQhjA29A0OZ6DGve" version="14.9.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-27T04:01:35.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="26QdPjyH_Cvh878cWdSH" version="14.9.8" type="github" pages="4">
   <diagram id="lNUnMd44pd3dAqWRJb_r" name="Payment-core">
     <mxGraphModel dx="1609" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -600,10 +600,70 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JnxmkbbM13PqqDWlSScF" name="欠费接口-cfApi">
-    <mxGraphModel dx="782" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="yg2d1C1QRjYoW7zOPL5L-0" />
         <mxCell id="yg2d1C1QRjYoW7zOPL5L-1" parent="yg2d1C1QRjYoW7zOPL5L-0" />
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-2" value="CfUserOweDTO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-1">
+          <mxGeometry x="36" y="18" width="252" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-3" value="executeTime 执行时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="26" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-4" value="orderSystem 来源系统" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="52" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-5" value="serviceItemCode 服务商品编码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="78" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-6" value="feeCode 费用项" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="104" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-7" value="payChannel 支付渠道" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="130" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-8" value="currency 币种" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="156" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-9" value="userId 付款用户" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="182" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-10" value="userType 用户类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="208" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-11" value="countType 统计类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="234" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-12" value="startTime 开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="260" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-13" value="endTime 结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="286" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-14" value="reportForm 报表来源" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="312" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-15" value="totalAmount 汇总金额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="338" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-16" value="status 状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="364" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-17" value="ds 分区" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="390" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-18" value="feature 扩展字段" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="416" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-19" value="extendInfo 内部扩展字段" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="442" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-20" value="hh 分区" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="468" width="252" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2d1C1QRjYoW7zOPL5L-21" value="direction 出款，入款" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yg2d1C1QRjYoW7zOPL5L-2">
+          <mxGeometry y="494" width="252" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
