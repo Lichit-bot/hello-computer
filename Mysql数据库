@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-28T07:25:00.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="sSgWhVpe-LkHZkuPUbqb" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-28T08:44:53.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="qDuhF0QdSeOP90bj-7Io" version="15.0.3" type="github">
   <diagram id="oR4lktEdvL1SxIYgdtDq" name="Page-1">
-    <mxGraphModel dx="782" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,6 +84,36 @@
         </mxCell>
         <mxCell id="TzNvyEC8zWOkIB-j9aOG-9" value="文件" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="TzNvyEC8zWOkIB-j9aOG-1">
           <mxGeometry x="320" y="221" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-11" value="缓冲池（innodb_buffer_pool）&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="201" y="1163" width="579" height="211" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-12" value="数据页（data page）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="222" y="1199" width="170" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-13" value="索引页（index page）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="222" y="1285" width="170" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-14" value="插入缓冲&lt;br&gt;（insert buffer）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1208" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-15" value="锁信息&lt;br&gt;（lock info）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="549" y="1208" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-16" value="自适应哈希索引" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1281" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-17" value="数据字典信息" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="549" y="1281" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-19" value="缓冲池" style="swimlane;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="57" y="1115" width="743" height="292" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-20" value="redo 日志缓冲&lt;br&gt;（redo_log_buffer）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TzNvyEC8zWOkIB-j9aOG-19">
+          <mxGeometry x="8" y="84" width="128" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-21" value="额外内存池&lt;br&gt;（innodb_additional_&lt;br&gt;mem_pool_size）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TzNvyEC8zWOkIB-j9aOG-19">
+          <mxGeometry x="8" y="173" width="128" height="66" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
