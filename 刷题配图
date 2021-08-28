@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2021-08-28T01:42:38.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="15.0.2" etag="h1wdjMlfy9NRpJrN9jo9" type="github"><diagram id="42J2UUKK0-0B-OJkoPry">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-28T01:55:52.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="4XaY1zZ3bfrZJ0IvSYxQ" version="15.0.2" type="github">
+  <diagram id="42J2UUKK0-0B-OJkoPry" name="八月份刷题配图">
+    <mxGraphModel dx="782" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="K3zBsDwe4Ac8znoEtmSp-1" target="K3zBsDwe4Ac8znoEtmSp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-1" value="状态（0， 0）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;portConstraintRotation=0;snapToPoint=0;fixDash=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-3" value="状态（1， 0）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;portConstraintRotation=0;snapToPoint=0;fixDash=0;" vertex="1" parent="1">
+          <mxGeometry x="359" y="190" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-4" value="根据如下变化公式：&lt;br&gt;ones = (ones ^ x) &amp;amp; ~twos&lt;br&gt;twos = (twos ^ x) &amp;amp; ~ones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="85" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-6" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-7" value="状态（0， 1）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;portConstraintRotation=0;snapToPoint=0;fixDash=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-10" value="" style="endArrow=classic;html=1;sketch=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K3zBsDwe4Ac8znoEtmSp-3" target="K3zBsDwe4Ac8znoEtmSp-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-11" value="" style="endArrow=classic;html=1;sketch=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="K3zBsDwe4Ac8znoEtmSp-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="310" as="sourcePoint" />
+            <mxPoint x="230" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-13" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-14" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-15" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K3zBsDwe4Ac8znoEtmSp-3" target="K3zBsDwe4Ac8znoEtmSp-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="470" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="130" />
+              <mxPoint x="450" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-16" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-17" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204" y="190" as="sourcePoint" />
+            <mxPoint x="204" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="130" />
+              <mxPoint x="240" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-19" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-21" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K3zBsDwe4Ac8znoEtmSp-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="sourcePoint" />
+            <mxPoint x="310" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="390" />
+              <mxPoint x="320" y="410" />
+              <mxPoint x="300" y="410" />
+              <mxPoint x="300" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K3zBsDwe4Ac8znoEtmSp-22" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="420" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
