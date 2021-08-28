@@ -1,59 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2021-08-28T03:56:31.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="ajRP-PXQvywcXXPH-buR" version="15.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-28T07:25:00.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="sSgWhVpe-LkHZkuPUbqb" version="15.0.3" type="github">
   <diagram id="oR4lktEdvL1SxIYgdtDq" name="Page-1">
-    <mxGraphModel dx="782" dy="390" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WstuIWGFjC6tbbjNweKq-1" value="Mysql 整体架构图" style="swimlane;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-1" value="Mysql 整体架构图" style="swimlane;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="90" y="50" width="690" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.514;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;" edge="1" parent="WstuIWGFjC6tbbjNweKq-1" source="WstuIWGFjC6tbbjNweKq-2" target="WstuIWGFjC6tbbjNweKq-3">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.514;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;" parent="WstuIWGFjC6tbbjNweKq-1" source="WstuIWGFjC6tbbjNweKq-2" target="WstuIWGFjC6tbbjNweKq-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-2" value="数据库连接器（其实严格意义不算）&lt;br&gt;&lt;br&gt;JDBC，Native C API，Python，Ruby 等负责数据库连接的管理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-2" value="数据库连接器（其实严格意义不算）&lt;br&gt;&lt;br&gt;JDBC，Native C API，Python，Ruby 等负责数据库连接的管理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="70" y="50" width="570" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WstuIWGFjC6tbbjNweKq-1" source="WstuIWGFjC6tbbjNweKq-3" target="WstuIWGFjC6tbbjNweKq-14">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WstuIWGFjC6tbbjNweKq-1" source="WstuIWGFjC6tbbjNweKq-3" target="WstuIWGFjC6tbbjNweKq-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-3" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-3" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="30" y="120" width="640" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-5" value="数据库连接池&lt;br&gt;&lt;br&gt;权限认证，线程重复使用，连接限制，内存检查，缓存等作用" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-5" value="数据库连接池&lt;br&gt;&lt;br&gt;权限认证，线程重复使用，连接限制，内存检查，缓存等作用" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="150" y="170" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-6" value="SQL 接口组件&lt;br&gt;&lt;br&gt;DML，DDL，存储过程，视图，触发器等" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-6" value="SQL 接口组件&lt;br&gt;&lt;br&gt;DML，DDL，存储过程，视图，触发器等" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="150" y="240" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-7" value="解释器&lt;br&gt;&lt;br&gt;查询翻译，对象权限管理&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22SQL%20%E6%8E%A5%E5%8F%A3%E7%BB%84%E4%BB%B6%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BDML%EF%BC%8CDDL%EF%BC%8C%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%EF%BC%8C%E8%A7%86%E5%9B%BE%EF%BC%8C%E8%A7%A6%E5%8F%91%E5%99%A8%E7%AD%89%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Bsketch%3D1%3BfillColor%3D%23d5e8d4%3BstrokeColor%3D%2382b366%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%22290%22%20width%3D%22170%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22SQL%20%E6%8E%A5%E5%8F%A3%E7%BB%84%E4%BB%B6%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BDML%EF%BC%8CDDL%EF%BC%8C%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%EF%BC%8C%E8%A7%86%E5%9B%BE%EF%BC%8C%E8%A7%A6%E5%8F%91%E5%99%A8%E7%AD%89%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Bsketch%3D1%3BfillColor%3D%23d5e8d4%3BstrokeColor%3D%2382b366%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%22290%22%20width%3D%22170%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-7" value="解释器&lt;br&gt;&lt;br&gt;查询翻译，对象权限管理&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22SQL%20%E6%8E%A5%E5%8F%A3%E7%BB%84%E4%BB%B6%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BDML%EF%BC%8CDDL%EF%BC%8C%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%EF%BC%8C%E8%A7%86%E5%9B%BE%EF%BC%8C%E8%A7%A6%E5%8F%91%E5%99%A8%E7%AD%89%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Bsketch%3D1%3BfillColor%3D%23d5e8d4%3BstrokeColor%3D%2382b366%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%22290%22%20width%3D%22170%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22SQL%20%E6%8E%A5%E5%8F%A3%E7%BB%84%E4%BB%B6%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BDML%EF%BC%8CDDL%EF%BC%8C%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%EF%BC%8C%E8%A7%86%E5%9B%BE%EF%BC%8C%E8%A7%A6%E5%8F%91%E5%99%A8%E7%AD%89%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Bsketch%3D1%3BfillColor%3D%23d5e8d4%3BstrokeColor%3D%2382b366%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%22290%22%20width%3D%22170%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="270" y="240" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-8" value="优化器&lt;br&gt;&lt;br&gt;优化执行路径，信息统计" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-8" value="优化器&lt;br&gt;&lt;br&gt;优化执行路径，信息统计" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="390" y="240" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-9" value="缓存 &amp;amp; 缓冲区&lt;br&gt;&lt;br&gt;全局缓存和缓冲区管理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-9" value="缓存 &amp;amp; 缓冲区&lt;br&gt;&lt;br&gt;全局缓存和缓冲区管理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="510" y="240" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-10" value="插件式存储引擎：内存，索引，存储管理&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-10" value="插件式存储引擎：内存，索引，存储管理&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="50" y="340" width="580" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-11" value="InnoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-11" value="InnoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="70" y="370" width="50" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-12" value="MyISAM" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-12" value="MyISAM" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="140" y="370" width="50" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-13" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;数据库管理，服务组件&lt;br&gt;&lt;br&gt;备份，恢复，安全，分片，复制，集群，配置，数据迁移和容灾，元数据等多种服务管理。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-13" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;数据库管理，服务组件&lt;br&gt;&lt;br&gt;备份，恢复，安全，分片，复制，集群，配置，数据迁移和容灾，元数据等多种服务管理。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="50" y="160" width="90" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-14" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-14" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="30" y="480" width="640" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-15" value="操作系统文件管理&lt;br&gt;&lt;br&gt;NTFS，ext2/3，NAS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-15" value="操作系统文件管理&lt;br&gt;&lt;br&gt;NTFS，ext2/3，NAS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="40" y="487" width="170" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="WstuIWGFjC6tbbjNweKq-16" value="文件和日志&lt;br&gt;&lt;br&gt;Redo，Undo，索引，数据文件，慢查询文件" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="WstuIWGFjC6tbbjNweKq-1">
+        <mxCell id="WstuIWGFjC6tbbjNweKq-16" value="文件和日志&lt;br&gt;&lt;br&gt;Redo，Undo，索引，数据文件，慢查询文件" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;" parent="WstuIWGFjC6tbbjNweKq-1" vertex="1">
           <mxGeometry x="290" y="475" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-1" value="InnoDB 整体架构图" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="734" width="691" height="318" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-2" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TzNvyEC8zWOkIB-j9aOG-1">
+          <mxGeometry x="37" y="53" width="626" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-3" value="后台线程" style="ellipse;whiteSpace=wrap;html=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="TzNvyEC8zWOkIB-j9aOG-1">
+          <mxGeometry x="57" y="66" width="113" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-4" value="后台线程" style="ellipse;whiteSpace=wrap;html=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="TzNvyEC8zWOkIB-j9aOG-1">
+          <mxGeometry x="166" y="66" width="113" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-5" value="后台线程" style="ellipse;whiteSpace=wrap;html=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="TzNvyEC8zWOkIB-j9aOG-1">
+          <mxGeometry x="276" y="66" width="113" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-6" value="后台线程" style="ellipse;whiteSpace=wrap;html=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="TzNvyEC8zWOkIB-j9aOG-1">
+          <mxGeometry x="389" y="66" width="113" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-7" value="后台线程" style="ellipse;whiteSpace=wrap;html=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="TzNvyEC8zWOkIB-j9aOG-1">
+          <mxGeometry x="500" y="66" width="113" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;" edge="1" parent="TzNvyEC8zWOkIB-j9aOG-1" source="TzNvyEC8zWOkIB-j9aOG-8" target="TzNvyEC8zWOkIB-j9aOG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-8" value="InnoDB 存储引擎内存池" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="TzNvyEC8zWOkIB-j9aOG-1">
+          <mxGeometry x="242.5" y="130" width="215" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="TzNvyEC8zWOkIB-j9aOG-9" value="文件" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="TzNvyEC8zWOkIB-j9aOG-1">
+          <mxGeometry x="320" y="221" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
