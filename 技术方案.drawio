@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T09:29:22.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="uYt9jVW-iIMieNL7vQTt" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-10T11:20:29.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="RCffUiae3_LCeYwU9gSZ" version="15.1.2" type="github">
   <diagram id="ekojfM5daiF6v0hRuksb" name="第 1 页">
     <mxGraphModel dx="782" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
         <mxCell id="PJY1jU5YXkeDaMY-Jb8y-2" value="10 s 时间窗&lt;br&gt;cf_account_log" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PJY1jU5YXkeDaMY-Jb8y-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PJY1jU5YXkeDaMY-Jb8y-3" target="PJY1jU5YXkeDaMY-Jb8y-13">
+        <mxCell id="PJY1jU5YXkeDaMY-Jb8y-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PJY1jU5YXkeDaMY-Jb8y-3" target="PJY1jU5YXkeDaMY-Jb8y-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PJY1jU5YXkeDaMY-Jb8y-3" value="10 s 时间窗的&lt;br&gt;错误表" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -50,14 +50,17 @@
             <mxPoint x="810" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PJY1jU5YXkeDaMY-Jb8y-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PJY1jU5YXkeDaMY-Jb8y-13" target="PJY1jU5YXkeDaMY-Jb8y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PJY1jU5YXkeDaMY-Jb8y-13" value="10 s 时间窗&lt;br&gt;cf_account_log" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="834" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PJY1jU5YXkeDaMY-Jb8y-14" value="10 s 时间窗的&lt;br&gt;错误表" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="750" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PJY1jU5YXkeDaMY-Jb8y-16" value="去抵消掉之前的错误表，抵消完成则排除，否则计数器加 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="410" width="450" height="20" as="geometry" />
+        <mxCell id="PJY1jU5YXkeDaMY-Jb8y-16" value="去抵消掉之前的错误表，抵消完成则排除，否则计数器加 1，计数达到 5 表示非噪声异常结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="410" width="530" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PJY1jU5YXkeDaMY-Jb8y-19" value="实时异常结果表" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="540" y="510" width="120" height="60" as="geometry" />
