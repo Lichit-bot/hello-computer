@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T08:36:45.584Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="15.5.0" etag="MRmClsBWrSDb_pRLL0wU" type="github"><diagram id="UbeKnX7KszHDM7OoJPkI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-09T11:34:18.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="K0C_kqKxb8q8gIVihs2W" version="15.5.0" type="github">
+  <diagram id="UbeKnX7KszHDM7OoJPkI" name="第 1 页">
+    <mxGraphModel dx="981" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XwGexG4eT3xpxCkALKpI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XwGexG4eT3xpxCkALKpI-1" target="XwGexG4eT3xpxCkALKpI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-1" value="创&lt;br&gt;建&lt;br&gt;画&lt;br&gt;布" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XwGexG4eT3xpxCkALKpI-2" target="XwGexG4eT3xpxCkALKpI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-2" value="是否创建子图" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XwGexG4eT3xpxCkALKpI-4" target="XwGexG4eT3xpxCkALKpI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-4" value="选&lt;br&gt;定&lt;br&gt;子&lt;br&gt;图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XwGexG4eT3xpxCkALKpI-6" target="XwGexG4eT3xpxCkALKpI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-6" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="166" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-7" value="添加标题" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="363" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-8" value="添加 X 轴名称" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="363" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-9" value="修改 X 轴刻度与范围" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="363" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-10" value="添加 y 轴名称" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="363" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-11" value="添加 y 轴刻度与范围" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="363" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XwGexG4eT3xpxCkALKpI-14" target="XwGexG4eT3xpxCkALKpI-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-14" value="绘&lt;br&gt;制&lt;br&gt;图&lt;br&gt;形" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XwGexG4eT3xpxCkALKpI-15" target="XwGexG4eT3xpxCkALKpI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-15" value="添&lt;br&gt;加&lt;br&gt;图&lt;br&gt;例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XwGexG4eT3xpxCkALKpI-16" target="XwGexG4eT3xpxCkALKpI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-16" value="是否绘制完成" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="670" y="220" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XwGexG4eT3xpxCkALKpI-20" target="XwGexG4eT3xpxCkALKpI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-20" value="保&lt;br&gt;存&lt;br&gt;图&lt;br&gt;形" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="200" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XwGexG4eT3xpxCkALKpI-22" value="显&lt;br&gt;示&lt;br&gt;图&lt;br&gt;形" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="200" width="50" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
